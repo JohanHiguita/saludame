@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 	if (name) {
 		res.send("<h1>Hola " + name +"!</h1>");
 	} else {
-		res.send("Hola desconocido!");
+		res.send("<h1>Hola desconocido!</h1>");
 	}
 });
 
